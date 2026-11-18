@@ -17,10 +17,12 @@ const Header = () => {
               Online Learn
             </span>
           </div>
-          {/* contact button */}
-          <button className="font-bold text-lg font-[Lato] bg-[rgba(255,145,0,1)] py-3 text-white pl-[38px] pr-[39px] rounded-lg ml-[911px]">
-            Contact
-          </button>
+          <div className="flex items-center">
+            {/* contact button */}
+            <button className=" w-[141px] h-[46px] font-bold text-lg font-[Lato] bg-[rgba(255,145,0,1)] py-3 text-white pl-[38px] pr-[39px] rounded-lg ml-[911px]">
+              Contact
+            </button>
+          </div>
         </div>
       </header>
     </>
