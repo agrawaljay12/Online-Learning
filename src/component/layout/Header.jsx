@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className="w-full max-w-[1306px] flex items-center">
+        <div className="w-full max-w-[1306px] flex items-center relative">
           {/* logo */}
-          <div className="flex items-center bg-white shadow-md w-[254px] h-[78px] gap-[5.64px] rounded-l-full pl-[36px] rounded-r-full">
+          <div className="absolute left-[-22px] flex items-center bg-white shadow-md w-[254px] h-[78px] gap-[5.64px] rounded-l-full pl-[36px] rounded-r-full">
             <img
               src={HeaderLogo}
               alt=""
