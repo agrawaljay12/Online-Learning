@@ -37,14 +37,14 @@ const Testimonial = () => {
               consectetur adipiscing elit,
               <br /> sed do eiusmod tempor
             </p>
-            <div className="flex mb-[60px] ml-[315.85px] mr-[317.27px] mt-[31px] w-[125.89px] h-[19.89] rounded-full">
+            <div className="flex mb-[60px] ml-[348px] mr-[367px] mt-[31px] w-[125.89px] h-[19.89] rounded-full">
               <div className="w-[19.89px] h-[19.89px]  bg-[rgba(0,219,208,1)] rounded-full"></div>
               <div className="ml-[7.11px] w-[19.89px] h-[19.89] border border-[rgba(0,219,208,1)] rounded-full"></div>
               <div className="ml-[6.11px] w-[19.89px] h-[19.89] border border-[rgba(0,219,208,1)] rounded-full"></div>
               <div className="ml-[6.11px] w-[19.89px] h-[19.89] border border-[rgba(0,219,208,1)] rounded-full"></div>
             </div>
           </div>
-          <div className=" absolute w-[203px] h-[203px] right-[89px] top-[317px] left-[1074px] border-b-30 border-r-30 opacity-25 border-[rgba(255,145,0,1)]"></div>
+          <div className=" absolute w-[203px] h-[203px] right-[89px] top-[317px] left-[984px] border-b-30 border-r-30 opacity-25 border-[rgba(255,145,0,1)]"></div>
         </div>
       </section>
     </>

@@ -19,7 +19,7 @@ const Blog = () => {
             {/* grid */}
             <div className="grid grid-cols-[328px_328px_328px] mt-[60px]">
               {/* 1st */}
-              <div className="ml-[25px] mt-[11.53px] mr-[25px] bg-white shadow-xl rounded-xl border-[2px] border-white">
+              <div className="ml-[25px] mt-[11.53px] mr-[25px] bg-white shadow-lg rounded-xl border-[2px] border-white">
                 <img src={Library} alt="" />
                 <span className="block font-[Libre Baskerville] text-[rgba(214,126,9,1)] text-[18px] font-normal leading-none pt-[21.47px] pl-[73.67px] pr-[73.33px]">
                   Blog Post One
@@ -36,7 +36,7 @@ const Blog = () => {
               </div>
 
               {/* 2nd */}
-              <div className="ml-[27px] mt-[12.53px] mr-[23px] bg-white shadow-xl rounded-xl border-[2px] border-white">
+              <div className="ml-[27px] mt-[12.53px] mr-[23px] bg-white shadow-lg rounded-xl border-[2px] border-white">
                 <img src={Library} alt="" />
                 <span className="block font-[Libre Baskerville] text-[rgba(214,126,9,1)] text-[18px] font-normal leading-none pt-[21.47px] pl-[73.67px] pr-[73.33px]">
                   Blog Post One
@@ -53,7 +53,7 @@ const Blog = () => {
               </div>
 
               {/* 3rd */}
-              <div className="ml-[3px] mt-[10.53px] mr-[53px] bg-white shadow-xl rounded-xl border-[2px] border-white">
+              <div className="ml-[3px] mt-[10.53px] mr-[53px] bg-white shadow-lg rounded-xl border-[2px] border-white">
                 <img src={Library} alt="" />
                 <span className="block font-[Libre Baskerville] text-[rgba(214,126,9,1)] text-[18px] font-normal leading-none pt-[21.47px] pl-[73.67px] pr-[73.33px]">
                   Blog Post One
