@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className="w-full max-w-[1306px] h-[78px] flex items-center">
+        <div className="w-full max-w-[1306px] h-[78px] flex items-center justify-between overflow-x-clip">
           {/* logo */}
-          <div className="flex items-center bg-white shadow-md w-[254px] h-[78px] gap-[5.64px] rounded-l-full pl-[36px] rounded-r-full">
+          <div className=" translate-x-[-22px] flex items-center bg-white shadow-md w-[254px] h-[78px] gap-[5.64px] rounded-l-full pl-[36px] rounded-r-full">
             <img
               src={HeaderLogo}
               alt=""
@@ -19,7 +19,7 @@ const Header = () => {
           </div>
           <div className="flex items-center">
             {/* contact button */}
-            <button className="mt-[29px] mb-3 w-[141px] h-[46px] font-bold xl:text-lg text-md font-[Lato] bg-[rgba(255,145,0,1)] py-3 text-white pl-[38px] pr-[39px] leading-none rounded-lg md:ml-[600px] xl:ml-[911px]">
+            <button className="mt-[29px] mb-3 w-[141px] h-[46px] font-bold xl:text-lg text-md font-[Lato] bg-[rgba(255,145,0,1)] py-3 text-white pl-[38px] pr-[39px] leading-none rounded-lg">
               Contact
             </button>
           </div>

@@ -4,10 +4,10 @@ import LearningAnalysis from "../../assets/image/LearningAnalysis.png";
 const Section = () => {
   return (
     <>
-      <section>
-        <div className="w-full max-w-[1114px] h-[423px] xl:ml-[126px] lg:ml-[100px] mt-[88px] flex lg:flex-row md:flex-col xl:gap-[66px] lg:gap-[56px]">
+      <section className="overflow-x-clip">
+        <div className="w-full max-w-[1114px] h-[423px] xl:ml-[126px] lg:ml-[90px] mt-[88px] flex lg:flex-row md:flex-col xl:gap-[66px] lg:gap-[56px]">
           {/* left content */}
-          <div className="md:mx-auto lg:mx-0 xl:w-[499px] mt-[33px] lg:mt-[73px] mb-[54px]">
+          <div className="md:mx-auto lg:mx-0 xl:w-[499px] lg:w-[470px] mt-[33px] lg:mt-[73px] mb-[54px]">
             <h1 className=" w-[402px] block leading-none h-[43px] text-[rgba(55,75,92,1)] font-normal xl:text-4xl md:text-3xl sm:text-2xl text-xl">
               New Learning Experience
             </h1>
@@ -22,8 +22,9 @@ const Section = () => {
               Explore Now
             </button>
           </div>
+
           {/* right content */}
-          <div className="xl:w-[549px] md:mx-auto lg:mx-0 relative lg:mt-0 mt-[74px]">
+          <div className="xl:w-[549px] lg:w-[500px] md:mx-auto lg:mx-0 relative lg:mt-0 mt-[74px]">
             <img
               src={OnlineLearning}
               alt=""
