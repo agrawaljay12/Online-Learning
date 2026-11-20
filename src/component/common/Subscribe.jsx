@@ -7,7 +7,7 @@ const Subscribe = () => {
             Subscribe to Our Newsletter
           </h1>
           <p className="text-center mt-[20px] text-[16px] font-[Libre Baskerville] leading-none w-[518px] h-[40px] text-[rgba(55,75,92,1)] font-normal mr-[1px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do{" "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             <br />
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>

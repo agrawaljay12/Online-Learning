@@ -19,7 +19,7 @@ const Header = () => {
           </div>
           <div className="flex items-center">
             {/* contact button */}
-            <button className="mt-[29px] mb-3 w-[141px] h-[46px] font-bold text-lg font-[Lato] bg-[rgba(255,145,0,1)] py-3 text-white pl-[38px] pr-[39px] leading-none rounded-lg ml-[911px]">
+            <button className="mt-[29px] mb-3 w-[141px] h-[46px] font-bold xl:text-lg text-md font-[Lato] bg-[rgba(255,145,0,1)] py-3 text-white pl-[38px] pr-[39px] leading-none rounded-lg md:ml-[600px] xl:ml-[911px]">
               Contact
             </button>
           </div>

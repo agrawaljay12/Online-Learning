@@ -13,7 +13,7 @@ const HomePage = () => {
       <div className="relative">
         <Header />
         <Section />
-        <div className="absolute top-[638px] rotate-10 left-[-111.98px]  w-[186.9px] h-[166.42px] rounded-l-full border-t-3 border-l-3 border-b-3 border-[rgba(245,145,0,1)] divide-y-4 divide-gray-300">
+        <div className="absolute top-[512.89px] rotate-10 left-[-111.98px]  w-[186.9px] h-[166.42px] rounded-l-full border-t-3 border-l-3 border-b-3 border-[rgba(245,145,0,1)] divide-y-4 divide-gray-300">
           <div className="py-3"></div>
           <div className="py-4"></div>
           <div className="py-4"></div>
