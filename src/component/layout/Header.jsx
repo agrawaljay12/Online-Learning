@@ -1,5 +1,4 @@
 import HeaderLogo from "../../assets/image/HeaderLogo.png";
-import OnlineLearn from "../../assets/image/OnlineLearn.png";
 
 const Header = () => {
   return (
