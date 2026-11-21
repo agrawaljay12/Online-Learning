@@ -2,16 +2,19 @@ const Subscribe = () => {
   return (
     <>
       <section>
-        <div className="w-full max-w-[569px] ml-[391px] mr-[406px] mt-[132.58px]">
-          <h1 className="w-[519px] h-[45px] text-[36px] font-[Libre Baskerville] leading-none text-[rgba(55,75,92,1)] font-normal ml-[33px] mr-[17px]">
+        <div className="w-full max-w-[569px] xl:ml-[391px] xl:mr-[406px] lg:mt-[132.58px] sm:mt-[100px] mx-auto">
+          <h1 className="w-[519px] h-[45px] xl:text-[36px] md:text-[32px] sm:text-[28px] text-[24px] text font-[Libre Baskerville] leading-none text-[rgba(55,75,92,1)] font-normal ml-[33px] mr-[17px]">
             Subscribe to Our Newsletter
           </h1>
-          <p className="text-center mt-[20px] text-[16px] font-[Libre Baskerville] leading-none w-[518px] h-[40px] text-[rgba(55,75,92,1)] font-normal mr-[1px]">
+          <p className="text-center xl:mt-[20px] md:mt-[16px] sm:mt-[14px] mt-[12px] font-[Libre Baskerville] leading-none w-[518px] h-[40px] text-[rgba(55,75,92,1)] font-normal mr-[1px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             <br />
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <form action="" className="flex mt-[54px] h-[69px] relative">
+          <form
+            action=""
+            className="flex md:flex-row flex-col mt-[54px] h-[69px] relative"
+          >
             <input
               type="text"
               placeholder="Enter your email address"

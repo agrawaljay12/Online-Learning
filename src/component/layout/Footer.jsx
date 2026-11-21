@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="w-full max-w-[1843.79px] mt-[97.84px] bg-[rgba(238,135,0,1)] text-[rgba(255,255,255,1)]">
-          <div className="grid grid-cols-[488.5px_197px_218.5px_183.79px] self-start">
+        <div className="w-full max-w-[1843.79px] h-[425px] mt-[97.84px] bg-[rgba(238,135,0,1)] text-[rgba(255,255,255,1)]">
+          <div className="grid xl:grid-cols-[488.5px_197px_218.5px_183.79px] lg:grid-cols-3 md:grid-cols-2 grid-cols-1 min-h-0 lg:self-start xs:justify-items-center">
             {/* logo section */}
             <div>
               <div className="flex items-center mt-[134.98px] ml-[135.96px]">
