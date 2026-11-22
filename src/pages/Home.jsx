@@ -35,7 +35,7 @@ const HomePage = () => {
           <div className="py-4 w-[170px]"></div>
         </div>
         <Blog />
-        <div className=" hidden lg:block absolute top-[2381.27px] rotate-10 left-[-111.98px]  w-[186.9px] h-[166.42px] rounded-l-full border-t-3 border-l-3 border-b-3 border-[rgba(245,145,0,1)] divide-y-4 divide-[rgba(204,204,204,1)]">
+        <div className=" hidden lg:block absolute top-[2300px] rotate-10 left-[-111.98px]  w-[186.9px] h-[166.42px] rounded-l-full border-t-3 border-l-3 border-b-3 border-[rgba(245,145,0,1)] divide-y-4 divide-[rgba(204,204,204,1)]">
           <div className="py-3"></div>
           <div className="py-4"></div>
           <div className="py-4"></div>
