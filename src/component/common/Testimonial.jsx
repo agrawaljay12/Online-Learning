@@ -5,7 +5,7 @@ const Testimonial = () => {
   return (
     <>
       <section className="overflow-x-clip">
-        <div className="w-full max-w-[1187px] lg:h-[520px] h-auto xl:ml-[90px] lg:ml-[70px] xl:mr-[89px] lg:mr-[71px] mt-16 sm:mt-20 lg:mt-[92.7px] md:mx-auto lg:mx-0 relative">
+        <div className="w-full max-w-[1187px] lg:h-[520px] h-auto xl:ml-[90px] lg:ml-[70px] xl:mr-[89px] lg:mr-[71px] mt-16 sm:mt-20 lg:mt-[92.7px] md:mx-auto lg:mx-0 2xl:mx-auto relative">
           <div className=" absolute w-[203px] h-[203px] top-[35px] border-t-30 border-l-30 opacity-25 border-[rgba(255,145,0,1)] hidden lg:block"></div>
           <div className="xl:ml-[203px] mt-[16.93px] w-full max-w-[759px] lg:w-[759px] mx-auto lg:mx-0">
             <img src={InvertedComma} alt="" className="mx-auto" />

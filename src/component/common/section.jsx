@@ -5,7 +5,7 @@ const Section = () => {
   return (
     <>
       <section className="overflow-x-clip">
-        <div className="w-full max-w-[1114px] lg:h-[423px] h-auto xl:ml-[126px] lg:ml-[90px] mt-[88px] flex lg:flex-row flex-col xl:gap-[66px] lg:gap-[56px] sm:gap-y-[50px] gap-y-10 lg:px-0 sm:px-6 px-5">
+        <div className="w-full max-w-[1114px] lg:h-[423px] h-auto xl:ml-[126px] lg:ml-[90px] mt-[88px] flex lg:flex-row flex-col xl:gap-[66px] lg:gap-[56px] sm:gap-y-[50px] gap-y-10 lg:px-0 sm:px-6 px-5 2xl:mx-auto">
           {/* left content */}
           <div className="mx-auto lg:mx-0 w-full text-center lg:text-left max-w-[499px] xl:w-[499px] lg:w-[470px] mt-[33px] lg:mt-[73px]">
             <h1 className="w-full lg:w-[402px] block xl:leading-[43px] md:leading-[39px] leading-[34px] text-[rgba(55,75,92,1)] font-normal xl:text-4xl md:text-3xl sm:text-2xl text-xl">
