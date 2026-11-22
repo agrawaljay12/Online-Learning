@@ -1,8 +1,8 @@
 const Book = () => {
   return (
     <>
-      <section>
-        <div className="w-full max-w-[335.93px] xl:ml-[515.1px] xl:mr-[514.98px] mx-auto mt-[131.99px] relative">
+      <section className="overflow-x-clip">
+        <div className="w-full max-w-[335.93px] h-[73.42px] xl:ml-[515.1px] xl:mr-[514.98px] 2xl:mx-auto mx-auto xl:mx-0 mt-16 sm:mt-24 lg:mt-[131.99px] origin-top scale-[0.85] min-[375px]:scale-100  mb-10 lg:mb-0 relative">
           
           {/* first book */}
           <div className="w-[269.81px] h-[24.72px] rounded-l-full rounded-r-xl relative bg-[rgba(255,146,0,1)]">

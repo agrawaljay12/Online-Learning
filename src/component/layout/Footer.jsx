@@ -8,33 +8,33 @@ import FooterBackground from "../../assets/image/FooterBackground.svg"
 const Footer = () => {
   return (
     <>
-      <footer>
-        <div style={{ backgroundImage: `url(${FooterBackground})` }} className="bg-[position:0_-2px] bg-no-repeat w-full max-w-[1843.79px] h-[395px] mt-[97.84px] text-[rgba(255,255,255,1)]">
-          <div className="grid xl:grid-cols-[488.5px_197px_218.5px_183.79px] lg:grid-cols-3 md:grid-cols-2 grid-cols-1 min-h-0 lg:self-start xs:justify-items-center ml-[139px]">
+      <footer className="overflow-x-clip">
+        <div style={{ backgroundImage: `url(${FooterBackground})` }} className="w-full max-w-[1843.79px] mx-auto bg-cover bg-top bg-no-repeat bg-[rgba(0,0,0,0)] min-h-[395px] h-auto mt-16 sm:mt-20 xl:mt-[97.84px] pb-10 xl:pb-0 text-[rgba(255,255,255,1)]">
+          <div className="grid xl:grid-cols-[488.5px_197px_218.5px_183.79px] lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-y-8 xl:gap-y-0 min-h-0 lg:self-start xs:justify-items-center px-6 sm:px-10 pt-14 sm:pt-16 xl:pt-0 xl:px-0 xl:ml-[139px]">
             {/* logo section */}
             <div>
-              <div className="flex items-center mt-[134.98px]">
+              <div className="flex items-center mt-0 xl:mt-[134.98px]">
                 <img
                   src={FooterLogo}
                   alt=""
                   className="w-[61.94px] h-[40.8px]"
                 />
-                <span className="text-[rgba(251,251,251,1)] font-[Forte] font-normal text-[32px] leading-[43px]">
+                <span className="text-[rgba(251,251,251,1)] font-[Forte] font-normal text-[26px] sm:text-[32px]  leading-[43px]">
                   Online Learn
                 </span>
               </div>
-              <p className="mt-[47.29px] font-[Libre Baskerville] font-normal text-[14px] leading-[17px]">
+              <p className="mt-6 xl:mt-[47.29px] font-[Libre Baskerville] font-normal text-[14px] leading-[17px]">
                 Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit,
                 sed do <br /> eiusmod tempor
               </p>
-              <p className="mt-[36.18px] font-[Libre Baskerville] font-normal text-[14px] leading-[17px]">
+              <p className="mt-6 xl:mt-[36.18px]  font-[Libre Baskerville] font-normal text-[14px] leading-[17px]">
                 © Copyright 2022 Online
               </p>
             </div>
 
             {/* Information */}
             <div>
-              <h4 className="mt-[154.86px] text-[rgba(255,255,255,1)] font-[Libre Baskerville] font-normal text-[16px] leading-5">
+              <h4 className="mt-0 xl:mt-[154.86px] text-[rgba(255,255,255,1)] font-[Libre Baskerville] font-normal text-[16px] leading-5">
                 Information
               </h4>
               <div className="mt-[14.32px] border-b-[2px] border-[rgba(0,219,208,1)] w-[54px]"></div>
@@ -63,7 +63,7 @@ const Footer = () => {
             </div>
 
             {/* About us */}
-            <div className="mt-[205.86px]">
+            <div className="mt-0 xl:mt-[205.86px]">
               <ul className="list-none">
                 <a href="">
                   <li className="mt-[18.68px] text-[rgba(255,255,255,1)] font-[Libre Baskerville] font-normal text-[14px] leading-[17px]">
@@ -80,7 +80,7 @@ const Footer = () => {
 
             {/* follow us */}
             <div>
-              <h4 className="mt-[154.86px] text-[rgba(255,255,255,1)] font-[Libre Baskerville] font-normal text-[16px] leading-5">
+              <h4 className="mt-0 xl:mt-[154.86px] text-[rgba(255,255,255,1)] font-[Libre Baskerville] font-normal text-[16px] leading-5">
                 Follow Us
               </h4>
               <div className="mt-[14.32px] border-b-[2px] border-[rgba(0,219,208,1)] w-[54px]"></div>
