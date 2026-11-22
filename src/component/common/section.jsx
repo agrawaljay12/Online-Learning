@@ -5,35 +5,35 @@ const Section = () => {
   return (
     <>
       <section className="overflow-x-clip">
-        <div className="w-full max-w-[1114px] h-[423px] h-[750px] xl:ml-[126px] lg:ml-[90px] mt-[88px] flex lg:flex-row flex-col xl:gap-[66px] lg:gap-[56px] sm:gap-y-[50px]">
+        <div className="w-full max-w-[1114px] lg:h-[423px] h-auto xl:ml-[126px] lg:ml-[90px] mt-[88px] flex lg:flex-row flex-col xl:gap-[66px] lg:gap-[56px] sm:gap-y-[50px] gap-y-10 lg:px-0 sm:px-6 px-5">
           {/* left content */}
-          <div className="md:mx-auto lg:mx-0 xl:w-[499px] lg:w-[470px] mt-[33px] lg:mt-[73px]">
-            <h1 className=" w-[402px] block leading-none h-[43px] text-[rgba(55,75,92,1)] font-normal xl:text-4xl md:text-3xl sm:text-2xl text-xl">
+          <div className="mx-auto lg:mx-0 w-full text-center lg:text-left max-w-[499px] xl:w-[499px] lg:w-[470px] mt-[33px] lg:mt-[73px]">
+            <h1 className="w-full lg:w-[402px] block xl:leading-[43px] md:leading-[39px] leading-[34px] text-[rgba(55,75,92,1)] font-normal xl:text-4xl md:text-3xl sm:text-2xl text-xl">
               New Learning Experience
             </h1>
-            <span className="whitespace-nowrap block font-normal xl:text-[56px] md:text-5xl sm:text-4xl text-3xl leading-none h-[67px] w-[314px] text-[rgba(55,75,92,1)]">
+            <span className="whitespace-nowrap block font-normal xl:text-[56px] md:text-5xl sm:text-4xl text-3xl xl:leading-[67px] md:leading-[63px] leading-[59px] w-full w-[314px] text-[rgba(55,75,92,1)]">
               Online Learn
             </span>
-            <p className="font-[Libre Baskerville] text-[rgba(55,75,92,1)] xl:text-[20px] md:text-lg sm:text-[16px] text-[14px] font-normal leading-none h-[50px] pt-[13px]">
+            <p className="font-[Libre Baskerville] text-[rgba(55,75,92,1)] xl:text-[20px] md:text-lg sm:text-[16px] text-[14px] font-normal leading-[25px] pt-[13px]">
               Lorem ipsum dolor sit amet, consectetur <br />
               adipiscing elit, sed do eiusmod tempor
             </p>
-            <button className="w-[220px] h-[54px] font-bold text-lg font-[Libre Baskerville] bg-[rgba(255,145,0,1)] pt-[15px] pb-[17px] text-white pl-[48px] pr-[51px] rounded-lg ml-[2px] mt-[38px] mb-0">
+            <button className="w-full sm:w-[220px] h-[54px] font-bold text-lg font-[Libre Baskerville] bg-[rgba(255,145,0,1)] pt-[15px] pb-[17px] text-white pl-[48px] pr-[51px] rounded-lg ml-[2px] mt-[38px] mb-0">
               Explore Now
             </button>
           </div>
 
           {/* right content */}
-          <div className="xl:w-[549px] lg:w-[500px] md:mx-auto lg:mx-0 relative lg:mt-0">
+          <div className="w-full max-w-[420px] sm:max-w-[549px] h-[300px] sm:h-[430px] lg:h-auto xl:w-[549px] lg:w-[500px] md:mx-auto lg:mx-0 relative lg:mt-[6px] mt-0">
             <img
               src={OnlineLearning}
               alt=""
-              className="xl:w-[393px] xl:h-[392px] lg:w-[370px] lg:h-[371px] sm:w-[385px] sm:h-[384]"
+              className="w-[220px] h-[220px] xl:w-[393px] xl:h-[392px] lg:w-[370px] lg:h-[371px] sm:w-[385px] sm:h-[384px]"
             />
             <img
               src={LearningAnalysis}
               alt=""
-              className="xl:w-[393px] xl:h-[393px] lg:w-[371px] h-[371px] absolute top-[40px] left-[196px] bottom-[10px]"
+              className="w-[220px] h-[220px] xl:w-[393px] xl:h-[393px] lg:w-[371px] lg:h-[371px] sm:w-[385px] sm:h-[384px] absolute top-[24px] sm:top-[40px] left-[100px] sm:left-[196px] bottom-[10px]"
             />
           </div>
         </div>
