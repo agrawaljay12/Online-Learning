@@ -11,7 +11,7 @@ const Footer = () => {
       <footer className="overflow-x-clip">
         <div
           style={{ backgroundImage: `url(${FooterBackground})` }}
-          className="w-full max-w-[1843.79px] mx-auto bg-cover bg-top bg-no-repeat bg-[rgba(0,0,0,0)] min-h-[395px] h-auto mt-16 sm:mt-20 xl:mt-[97.84px] pb-10 xl:pb-0 text-[rgba(255,255,255,1)]"
+          className="w-full max-w-[1843.79px] mx-auto bg-cover bg-top bg-no-repeat bg-center bg-size[length:(100%_auto)] bg-[rgba(0,0,0,0)] min-h-[395px] h-auto mt-16 sm:mt-20 xl:mt-[97.84px] pb-10 xl:pb-0 text-[rgba(255,255,255,1)]"
         >
           <div className="grid xl:grid-cols-[488.5px_197px_218.5px_183.79px] lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-y-8 xl:gap-y-0 min-h-0 lg:self-start xs:justify-items-center  px-6 sm:px-10 pt-14 sm:pt-16 xl:pt-0 2xl:pt-10 xl:px-0 xl:ml-[139px]">
             {/* logo section */}

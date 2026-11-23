@@ -41,14 +41,14 @@ const OnlineLearning = () => {
             {/* second */}
             <div className="w-[262.51px] max-w-full h-[304.8px] bg-[rgba(255,145,0,1)] border-dashed border-[rgba(55,75,92,1)] border-[0.5px] rounded-4xl">
               <img
-                src={Girl}
+                src={Girl1}
                 alt=""
                 className="ml-[82px] mt-[24px] mr-[82.04px] mb-[20.68px]"
               />
-              <span className="w-[162.73px] font-normal text-[19px] leading-none h-[24px] text-[rgba(55,75,92,1)] ml-[50px] mr-[49.78px]">
+              <span className="w-[162.73px] font-normal text-white text-[19px] leading-none h-[24px] text-[rgba(55,75,92,1)] ml-[50px] mr-[49.78px]">
                 Online Learning
               </span>
-              <p className="w-[189px] h-[38px] ml-[37px] mr-[36.51px] mb-[50.06px] text-center mt-[18.67px] font-normal text-[15px] leading-none text-[rgba(55,75,92,1)]">
+              <p className="w-[189px] h-[38px] ml-[42px] mr-[44.51px] mb-[46.3px] text-center mt-[16.67px] font-normal text-[15px] text-white leading-none text-[rgba(55,75,92,1)]">
                 Lorem ipsum dolor sit <br /> amet, consectetur
               </p>
             </div>
@@ -63,7 +63,7 @@ const OnlineLearning = () => {
               <span className="w-[162.73px] font-normal text-[19px] leading-none h-[24px] text-[rgba(55,75,92,1)] ml-[50px] mr-[49.78px]">
                 Online Learning
               </span>
-              <p className="w-[189px] h-[38px] ml-[37px] mr-[36.51px] mb-[50.06px] text-center mt-[18.67px] font-normal text-[15px] leading-none text-[rgba(55,75,92,1)]">
+              <p className="w-[189px] h-[38px] ml-[33px] mr-[40.51px] mb-[50.3px] text-center mt-[18.67px] font-normal text-[15px] leading-none text-[rgba(55,75,92,1)]">
                 Lorem ipsum dolor sit <br /> amet, consectetur
               </p>
             </div>
@@ -78,7 +78,7 @@ const OnlineLearning = () => {
               <span className="w-[162.73px] font-normal text-[19px] leading-none h-[24px] text-[rgba(55,75,92,1)] ml-[50px] mr-[49.78px]">
                 Online Learning
               </span>
-              <p className="w-[189px] h-[38px] ml-[37px] mr-[36.51px] mb-[50.06px] text-center mt-[18.67px] font-normal text-[15px] leading-none text-[rgba(55,75,92,1)]">
+              <p className="w-[189px] h-[38px] ml-[37px] mr-[36.51px] mb-[50.3px] text-center mt-[18.67px] font-normal text-[15px] leading-none text-[rgba(55,75,92,1)]">
                 Lorem ipsum dolor sit <br /> amet, consectetur
               </p>
             </div>
