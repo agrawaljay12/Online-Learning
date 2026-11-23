@@ -3,14 +3,17 @@ import Facebook from "../../assets/icon/Facebook.png";
 import Instagram from "../../assets/icon/Instagram.png";
 import Twitter from "../../assets/icon/Twitter.png";
 import Linkedin from "../../assets/icon/Linkedin.png";
-import FooterBackground from "../../assets/image/FooterBackground.svg"
+import FooterBackground from "../../assets/image/FooterBackground.svg";
 
 const Footer = () => {
   return (
     <>
       <footer className="overflow-x-clip">
-        <div style={{ backgroundImage: `url(${FooterBackground})` }} className="w-full max-w-[1843.79px] mx-auto bg-cover bg-top bg-no-repeat bg-[rgba(0,0,0,0)] min-h-[395px] h-auto mt-16 sm:mt-20 xl:mt-[97.84px] pb-10 xl:pb-0 text-[rgba(255,255,255,1)]">
-          <div className="grid xl:grid-cols-[488.5px_197px_218.5px_183.79px] lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-y-8 xl:gap-y-0 min-h-0 lg:self-start xs:justify-items-center px-6 sm:px-10 pt-14 sm:pt-16 xl:pt-0 xl:px-0 xl:ml-[139px]">
+        <div
+          style={{ backgroundImage: `url(${FooterBackground})` }}
+          className="w-full max-w-[1843.79px] mx-auto bg-cover bg-top bg-no-repeat bg-[rgba(0,0,0,0)] min-h-[395px] h-auto mt-16 sm:mt-20 xl:mt-[97.84px] pb-10 xl:pb-0 text-[rgba(255,255,255,1)]"
+        >
+          <div className="grid xl:grid-cols-[488.5px_197px_218.5px_183.79px] lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-y-8 xl:gap-y-0 min-h-0 lg:self-start xs:justify-items-center  px-6 sm:px-10 pt-14 sm:pt-16 xl:pt-0 2xl:pt-10 xl:px-0 xl:ml-[139px]">
             {/* logo section */}
             <div>
               <div className="flex items-center mt-0 xl:mt-[134.98px]">

@@ -19,7 +19,7 @@ const Blog = () => {
             {/* grid */}
             <div className="grid lg:grid-cols-[328px_328px_328px] md:grid-cols-2 grid-cols-1 gap-y-6 xl:gap-y-0 mt-[60px]">
               {/* 1st */}
-               <div className="w-full max-w-[278px] mx-auto xl:max-w-none xl:ml-[25px] xl:mr-[25px] mt-[11.53px] bg-white shadow-lg rounded-xl border-[2px] border-white">
+              <div className="w-full max-w-[278px] mx-auto xl:ml-[25px] xl:mr-[25px] mt-[11.53px] bg-white shadow-lg rounded-xl border-[2px] border-white">
                 <img src={Library} alt="" className="w-[278px] h-[195px]" />
                 <span className="block font-[Libre Baskerville] text-[rgba(214,126,9,1)] text-[18px] font-normal leading-[22px] pt-[21.47px] pl-[73.67px] pr-[73.33px]">
                   Blog Post One
@@ -36,7 +36,7 @@ const Blog = () => {
               </div>
 
               {/* 2nd */}
-              <div className="w-full max-w-[278px] mx-auto xl:max-w-none xl:ml-[27px] xl:mr-[23px] mt-[12.53px] bg-white shadow-lg rounded-xl border-[2px] border-white">
+              <div className="w-full max-w-[278px] mx-auto xl:ml-[27px] xl:mr-[23px] mt-[12.53px] bg-white shadow-lg rounded-xl border-[2px] border-white">
                 <img src={Library} alt="" className="max-w-full" />
                 <span className="block font-[Libre Baskerville] text-[rgba(214,126,9,1)] text-[18px] font-normal leading-[22px] pt-[21.47px] pl-[73.67px] pr-[73.33px]">
                   Blog Post One
@@ -53,7 +53,7 @@ const Blog = () => {
               </div>
 
               {/* 3rd */}
-              <div className="w-full max-w-[278px] mx-auto xl:max-w-none xl:ml-[27px] xl:mr-[23px] mt-[12.53px] bg-white shadow-lg rounded-xl border-[2px] border-white">
+              <div className="w-full max-w-[278px] mx-auto xl:ml-[27px] xl:mr-[23px] mt-[12.53px] bg-white shadow-lg rounded-xl border-[2px] border-white">
                 <img src={Library} alt="" className="max-w-full" />
                 <span className="block font-[Libre Baskerville] text-[rgba(214,126,9,1)] text-[18px] font-normal leading-[22px] pt-[21.47px] pl-[73.67px] pr-[73.33px]">
                   Blog Post One
