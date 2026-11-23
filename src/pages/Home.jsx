@@ -13,8 +13,8 @@ const HomePage = () => {
       <div className="relative">
         <Header />
         <Section />
-        <div className="hidden lg:block absolute top-[512.89px] rotate-10 left-[-111.98px]  w-[186.9px] h-[166.42px] rounded-l-full border-t-3 border-l-3 border-b-3 border-[rgba(245,145,0,1)] divide-y-4 divide-gray-300">
-          <div className="py-3"></div>
+        <div className="hidden lg:block absolute top-[512.89px] rotate-10 left-[-111.98px] 2xl:left-0  w-[186.9px] h-[166.42px] rounded-l-full border-t-4 border-l-4 border-b-4 border-[rgba(245,145,0,1)] divide-y-1 divide-gray-300">
+          <div className="py-4"></div>
           <div className="py-4"></div>
           <div className="py-4"></div>
           <div className="py-4"></div>
@@ -27,20 +27,20 @@ const HomePage = () => {
         <Testimonial />
         <Book />
         <Subscribe />
-        <div className="hidden absolute top-[1500.09px] rotate-190 left-[1243.06px] w-[186.9px] h-[166.42px] rounded-l-full border-t-3 border-l-3 border-b-3 border-[rgba(245,145,0,1)] divide-y-4 divide-[rgba(204,204,204,1)]">
-          <div className="py-3"></div>
-          <div className="py-4 w-[170px]"></div>
+        <div className="hidden lg:block 2xl:hidden absolute top-[1500.09px] rotate-190 left-[1243.06px] w-[186.9px] h-[166.42px] rounded-l-full border-t-4 border-l-4 border-b-4 border-[rgba(245,145,0,1)] divide-y-1 divide-[rgba(204,204,204,1)]">
           <div className="py-4"></div>
           <div className="py-4"></div>
-          <div className="py-4 w-[170px]"></div>
+          <div className="py-4"></div>
+          <div className="py-4"></div>
+          <div className="py-4"></div>
         </div>
         <Blog />
-        <div className=" hidden lg:block absolute top-[2300px] rotate-10 left-[-111.98px]  w-[186.9px] h-[166.42px] rounded-l-full border-t-3 border-l-3 border-b-3 border-[rgba(245,145,0,1)] divide-y-4 divide-[rgba(204,204,204,1)]">
-          <div className="py-3"></div>
-          <div className="py-4"></div>
-          <div className="py-4"></div>
-          <div className="py-4"></div>
-          <div className="py-4"></div>
+        <div className=" hidden lg:block 2xl:left-0 absolute lg:top-[2800px] lg:h-[100px] xl:top-[2400px] rotate-10 left-[-111.98px] w-[186.9px] xl:h-[166.42px] rounded-l-full border-t-4 border-l-4 border-b-4 border-[rgba(245,145,0,1)] divide-y-1 divide-[rgba(204,204,204,1)]">
+          <div className="xl:py-4 lg:py-2.5"></div>
+          <div className="xl:py-4 lg:py-2.5"></div>
+          <div className="xl:py-4 lg:py-2.5"></div>
+          <div className="xl:py-4 lg:py-2.5"></div>
+          <div className="xl:py-4 lg:py-2.5"></div>
         </div>
       </div>
       <Footer />

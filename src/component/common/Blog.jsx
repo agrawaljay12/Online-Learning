@@ -11,7 +11,7 @@ const Blog = () => {
   return (
     <>
       <article className="overflow-x-clip">
-        <div className="w-full max-w-[1015px] xl:ml-[188px] 2xl:mx-auto lg:w-auto xl:w-full lg:ml-[120px] xl:mr-[163px] lg:ml-[120px] mt-16 sm:mt-24 lg:mt-[153px] mx-auto px-4 sm:px-6 lg:px-0 pb-10 lg:pb-0">
+        <div className="w-full max-w-[1015px] xl:ml-[188px] 2xl:mx-auto lg:w-auto xl:w-full  xl:mr-[163px] mt-16 sm:mt-24 xl:mt-[153px] mx-auto px-4 sm:px-6 lg:px-0">
           <img src={HeaderLogo} alt="" className="block mx-auto" />
           <div className="mx-auto">
             <span className="w-full max-w-[273px] block mx-auto text-center font-[Libre Baskerville] text-[rgba(55,75,92,1)] text-[28px] sm:text-[34px] xl:text-[36px] font-normal leading-[45px] pt-[17.18px]">
@@ -23,7 +23,7 @@ const Blog = () => {
               magna aliqua.
             </p>
             {/* grid */}
-            <div className="grid lg:grid-cols-[328px_328px_328px] md:grid-cols-2 grid-cols-1 gap-y-6 xl:gap-y-0 mt-[60px]">
+            <div className="grid lg:grid-cols-[328px_328px_328px] md:grid-cols-2 grid-cols-1 gap-y-6 xl:gap-y-0 xl:mt-[60px] mt-10">
               {margins.map((marginclass, index) => (
                 <div
                   key={index}

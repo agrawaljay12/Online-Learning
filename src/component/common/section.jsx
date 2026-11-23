@@ -5,9 +5,9 @@ const Section = () => {
   return (
     <>
       <section className="overflow-x-clip">
-        <div className="w-full max-w-[1114px] lg:h-[423px] h-auto xl:ml-[126px] lg:ml-[90px] mt-[88px] flex lg:flex-row flex-col xl:gap-[66px] lg:gap-[56px] sm:gap-y-[50px] gap-y-10 lg:px-0 sm:px-6 px-5 2xl:mx-auto">
+        <div className="w-full max-w-[1114px] mx-auto lg:h-[423px] h-auto xl:ml-[126px] xl:mt-[88px] md:mt-[70px] mt-[50px] flex lg:flex-row flex-col xl:gap-[66px] lg:gap-[40px] sm:gap-y-[50px] gap-y-10 xl:px-0 lg:px-5 sm:px-6 px-5 2xl:mx-auto">
           {/* left content */}
-          <div className="mx-auto lg:mx-0 w-full text-center lg:text-left max-w-[499px] xl:w-[499px] lg:w-[470px] mt-[33px] lg:mt-[73px]">
+          <div className="mx-auto lg:mx-0 w-full text-center lg:text-left max-w-[499px] xl:w-[499px] lg:w-[410px] mt-[33px] lg:mt-[73px]">
             <h1 className="w-full lg:w-[402px] block xl:leading-[43px] md:leading-[39px] leading-[34px] text-[rgba(55,75,92,1)] font-normal xl:text-4xl md:text-3xl sm:text-2xl text-xl">
               New Learning Experience
             </h1>
@@ -24,7 +24,7 @@ const Section = () => {
           </div>
 
           {/* right content */}
-          <div className="w-full max-w-[420px] sm:max-w-[549px] h-[300px] sm:h-[430px] lg:h-auto xl:w-[549px] lg:w-[500px] md:mx-auto lg:mx-0 relative lg:mt-[6px] mt-0">
+          <div className="w-full max-w-[420px] sm:max-w-[549px] h-[300px] sm:h-[430px] lg:h-auto xl:w-[549px] lg:w-[440px] md:mx-auto lg:mx-0 relative lg:mt-[6px] mt-0">
             <img
               src={OnlineLearning}
               alt=""
