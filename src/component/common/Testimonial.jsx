@@ -5,9 +5,9 @@ const Testimonial = () => {
   return (
     <>
       <section className="overflow-x-clip">
-        <div className="w-full max-w-[1187px] lg:w-[905px] lg:h-[520px] h-auto xl:ml-[90px] xl:mr-[89px] mt-16 sm:mt-20 lg:mt-[92.7px] md:mx-auto lg:ml-[70px] lg:mr-[70px] 2xl:mx-auto relative">
-          <div className=" absolute xl:w-[203px] xl:h-[203px] lg:w-[103px] lg:h-[103px] top-[35px] border-t-30 border-l-30 opacity-25 border-[rgba(255,145,0,1)] hidden lg:block"></div>
-          <div className="xl:ml-[203px] mt-[16.93px] w-full max-w-[759px] lg:w-[700px] xl:w-[759px] mx-auto lg:mx-0 lg:ml-[30px]">
+        <div className="w-full max-w-[1187px] lg:w-[905px] lg:h-[500px] xl:h-[520px] xl:w-auto h-auto xl:ml-[90px] xl:mr-[89px] mt-16 sm:mt-20 lg:mt-[92.7px] md:mx-auto lg:px 2xl:mx-auto relative">
+          <div className=" absolute xl:w-[203px] xl:h-[203px] lg:w-[183px] lg:h-[183px] top-[35px] border-t-30 border-l-30 opacity-25 border-[rgba(255,145,0,1)] hidden lg:block"></div>
+          <div className="xl:ml-[203px] mt-[16.93px] w-full max-w-[759px] lg:w-[650px] xl:w-[759px] mx-auto lg:mx-0 lg:ml-[60px]">
             <img src={InvertedComma} alt="" className="mx-auto" />
             <img
               src={Client}
@@ -34,7 +34,7 @@ const Testimonial = () => {
                 ☆
               </div>
             </div>
-            <p className=" mt-[23px] text-center text-[rgba(55,75,92,1)] font-[Libre Baskerville] font-normal xl:text-[16px] md:text-[14px] sm:text-[12px] text-[10px] leading-none lg:w-[759px] w-full h-[95px] h-auto lg:mr-[21px] lg:ml-[1px]">
+            <p className=" mt-[23px] text-center text-[rgba(55,75,92,1)] font-[Libre Baskerville] font-normal xl:text-[16px] md:text-[14px] sm:text-[12px] text-[10px] leading-none xl:w-[759px] w-full h-[95px] h-auto lg:mr-[21px] lg:ml-[1px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt <br />
               ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
@@ -48,7 +48,7 @@ const Testimonial = () => {
               <div className="ml-[6.11px] w-[19.89px] h-[19.89] border border-[rgba(0,219,208,1)] rounded-full"></div>
             </div>
           </div>
-          <div className="absolute xl:w-[203px] xl:h-[203px] lg:w-[103px] lg:h-[103px] right-[89px] top-[317px] xl:left-[984px] lg:left-[700px] border-b-30 border-r-30 opacity-25 border-[rgba(255,145,0,1)] hidden lg:block"></div>
+          <div className="absolute xl:w-[203px] xl:h-[203px] lg:w-[183px] lg:h-[183px] right-[89px] top-[317px] xl:left-[984px] lg:left-[720px] border-b-30 border-r-30 opacity-25 border-[rgba(255,145,0,1)] hidden lg:block"></div>
         </div>
       </section>
     </>

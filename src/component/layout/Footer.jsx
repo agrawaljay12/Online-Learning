@@ -37,7 +37,7 @@ const Footer = () => {
 
             {/* Information */}
             <div>
-              <h4 className="md:mt-14 xl:mt-[154.86px] text-[rgba(255,255,255,1)] font-[Libre Baskerville] font-normal text-[16px] leading-5">
+              <h4 className="md:mt-18 lg:mt-14 xl:mt-[154.86px] text-[rgba(255,255,255,1)] font-[Libre Baskerville] font-normal text-[16px] leading-5">
                 Information
               </h4>
               <div className="mt-[14.32px] border-b-[2px] border-[rgba(0,219,208,1)] w-[54px]"></div>
@@ -66,7 +66,7 @@ const Footer = () => {
             </div>
 
             {/* About us */}
-            <div className="lg:mt-20 xl:mt-[205.86px]">
+            <div className="lg:mt-24 xl:mt-[205.86px]">
               <ul className="list-none">
                 <a href="">
                   <li className="mt-[18.68px] text-[rgba(255,255,255,1)] font-[Libre Baskerville] font-normal text-[14px] leading-[17px]">
@@ -83,7 +83,7 @@ const Footer = () => {
 
             {/* follow us */}
             <div>
-              <h4 className="lg:mt-14 xl:mt-[154.86px] text-[rgba(255,255,255,1)] font-[Libre Baskerville] font-normal text-[16px] leading-5">
+              <h4 className="md:mt-3 lg:mt-16 xl:mt-[154.86px] text-[rgba(255,255,255,1)] font-[Libre Baskerville] font-normal text-[16px] leading-5">
                 Follow Us
               </h4>
               <div className="mt-[14.32px] border-b-[2px] border-[rgba(0,219,208,1)] w-[54px]"></div>
