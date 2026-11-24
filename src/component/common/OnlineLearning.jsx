@@ -13,16 +13,16 @@ const OnlineLearning = () => {
             alt=""
             className="block mx-auto xl:ml-[552px] xl:mr-[571.01px] md:mx-auto w-[82.44px] h-[54.3px]"
           />
-          <h1 className="text-center font-[Libre Baskerville] font-normal text-[28px] sm:text-[30px] md:text-[34px] xl:text-[39px] leading-tight xl:leading-none w-full max-w-[578px] xl:w-[578px] h-auto xl:h-[48px] text-[rgba(55,75,92,1)] mx-auto xl:ml-[299px] xl:mr-[328.51px] mt-[17.48px]">
+          <h1 className="text-center font-[LibreBaskerville] font-normal text-[28px] sm:text-[30px] md:text-[34px] xl:text-[39px] leading-tight xl:leading-none w-full max-w-[578px] xl:w-[578px] h-auto xl:h-[48px] text-[rgba(55,75,92,1)] mx-auto xl:ml-[299px] xl:mr-[328.51px] mt-[17.48px]">
             Welcome to On line learning
           </h1>
-          <p className="text-center mt-[17.23px] mx-auto xl:ml-[147px] font-normal xl:text-[22px] md:text-[18px] sm:text-[14px] text-[12px] leading-normal xl:leading-none w-full max-w-[819px] xl:w-[819px] h-auto xl:h-[67px] text-[rgba(55,75,92,1)]">
+          <p className="font-[LibreBaskerville] text-center mt-[17.23px] mx-auto xl:ml-[147px] font-normal xl:text-[22px] md:text-[18px] sm:text-[14px] text-[12px] leading-normal xl:leading-none w-full max-w-[819px] xl:w-[819px] h-auto xl:h-[67px] text-[rgba(55,75,92,1)]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod <br /> tempor incididunt ut labore et dolore magna aliqua.
           </p>
 
           {/* grid card */}
-          <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 sm:gap-y-8 gap-y-6 gap-x-4 xl:gap-x-0 grid-cols-1 w-full max-w-[1205.51px] xl:justify-between md:justify-items-center xl:justify-items-start xl:mt-[67px] md:mt-[63px] sm:mt-[58px] mt-[54px]">
+          <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 sm:gap-y-8 gap-y-6 xl:gap-x-0 grid-cols-1 w-full max-w-[1205.51px] xl:justify-between justify-items-center xl:justify-items-start xl:mt-[67px] md:mt-[63px] sm:mt-[58px] mt-[54px] font-[LibreBaskerville]">
             {/* first */}
             <div className="w-[262.51px] max-w-full h-[304.8px] border-dashed  border-[rgba(55,75,92,1)] border-[0.5px] rounded-4xl">
               <img

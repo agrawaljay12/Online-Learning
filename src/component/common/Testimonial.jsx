@@ -14,7 +14,7 @@ const Testimonial = () => {
               alt=""
               className="block mx-auto lg:mx-0 lg:ml-[321px] mt-[23.74px]"
             />
-            <h3 className="text-center font-[Libre Baskerville] font-normal xl:text-[26px] md:text-[22px] sm:text-[20px] text-[18px] leading-none h-[32px] h-auto w-full text-center lg:text-left lg:ml-[328px] lg:mr-[312px] mt-[16.93px] lg:w-[119px] mt-[16.93px]">
+            <h3 className="text-center font-[LibreBaskerville] font-normal xl:text-[26px] md:text-[22px] sm:text-[20px] text-[18px] leading-none h-[32px] h-auto w-full text-center lg:text-left lg:ml-[328px] lg:mr-[312px] mt-[16.93px] lg:w-[119px] mt-[16.93px]">
               Jane Doe
             </h3>
             <div className="flex justify-center lg:justify-start lg:ml-[315.85px] lg:mr-[317.27px] mt-[17.07px] w-full lg:w-[125.89px] h-[19.89px]">
@@ -34,7 +34,7 @@ const Testimonial = () => {
                 ☆
               </div>
             </div>
-            <p className=" mt-[23px] text-center text-[rgba(55,75,92,1)] font-[Libre Baskerville] font-normal xl:text-[16px] md:text-[14px] sm:text-[12px] text-[10px] leading-none xl:w-[759px] w-full h-[95px] h-auto lg:mr-[21px] lg:ml-[1px]">
+            <p className=" mt-[23px] text-center text-[rgba(55,75,92,1)] font-[LibreBaskerville] font-normal xl:text-[16px] md:text-[14px] sm:text-[12px] text-[10px] leading-none xl:w-[759px] w-full h-[95px] h-auto lg:mr-[21px] lg:ml-[1px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt <br />
               ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
