@@ -2,11 +2,7 @@ import HeaderLogo from "../../assets/image/HeaderLogo.png";
 import Library from "../../assets/image/Library.png";
 
 const Blog = () => {
-  const margins = [
-    "xl:ml-[25px] xl:mr-[25px] mt-[11.53px]",
-    "xl:ml-[27px] xl:mr-[23px] mt-[12.53px]",
-    "xl:ml-[27px] xl:mr-[23px] mt-[12.53px]",
-  ];
+  const margins = ["mt-[11.53px]", "mt-[12.53px]", "mt-[12.53px]"];
 
   return (
     <>
@@ -23,7 +19,7 @@ const Blog = () => {
               magna aliqua.
             </p>
             {/* grid */}
-            <div className="grid lg:grid-cols-[328px_328px_328px] md:grid-cols-2 grid-cols-1 gap-y-6 xl:gap-y-0 xl:mt-[60px] mt-10">
+            <div className="grid lg:grid-cols-[328px_328px_328px] w-full max-w-[984px] md:grid-cols-2 grid-cols-1 gap-y-6 xl:gap-y-0 xl:mt-[60px] mt-10 mx-auto xl:mx-0">
               {margins.map((marginclass, index) => (
                 <div
                   key={index}

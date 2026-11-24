@@ -2,7 +2,7 @@ import HeaderLogo from "../../assets/image/HeaderLogo.png";
 import Girl from "../../assets/image/Girl.png";
 import Girl1 from "../../assets/image/Girl1.png";
 
-export const OnlineLearning = () => {
+const OnlineLearning = () => {
   return (
     <>
       <section className="overflow-x-clip">
@@ -22,7 +22,7 @@ export const OnlineLearning = () => {
           </p>
 
           {/* grid card */}
-          <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 sm:gap-y-8 gap-y-6 gap-x-4 xl:gap-x-0 grid-cols-1 justify-between justify-items-center xl:justify-items-start xl:mt-[67px] md:mt-[63px] sm:mt-[58px] mt-[54px]">
+          <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 sm:gap-y-8 gap-y-6 gap-x-4 xl:gap-x-0 grid-cols-1 w-full max-w-[1205.51px] xl:justify-between md:justify-items-center xl:justify-items-start xl:mt-[67px] md:mt-[63px] sm:mt-[58px] mt-[54px]">
             {/* first */}
             <div className="w-[262.51px] max-w-full h-[304.8px] border-dashed  border-[rgba(55,75,92,1)] border-[0.5px] rounded-4xl">
               <img
@@ -88,3 +88,5 @@ export const OnlineLearning = () => {
     </>
   );
 };
+
+export default OnlineLearning;
