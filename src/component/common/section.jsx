@@ -5,7 +5,7 @@ const Section = () => {
   return (
     <>
       <section className="overflow-x-clip">
-        <div className="w-full max-w-[1114px] xl:max-w-[1154px] mx-auto lg:h-auto xl:h-[433px] h-auto xl:ml-[126px] xl:mt-[88px] md:mt-[70px] mt-[50px] flex lg:flex-row flex-col lg:items-start xl:gap-[66px] lg:gap-6 sm:gap-y-[50px] gap-y-10 xl:px-0 lg:px-5 sm:px-6 px-4 2xl:mx-auto">
+        <div className="w-full max-w-[1114px] mx-auto lg:h-auto xl:h-[433px] h-auto xl:ml-[126px] xl:mt-[88px] md:mt-[70px] mt-[50px] flex lg:flex-row flex-col lg:items-start xl:gap-[66px] lg:gap-6 sm:gap-y-[50px] gap-y-10 xl:px-0 lg:px-5 sm:px-6 px-4 2xl:mx-auto">
           {/* left content */}
           <div className="mx-auto lg:mx-0 w-full text-center lg:text-left max-w-[499px] lg:max-w-none lg:w-auto lg:flex-1 lg:min-w-0 xl:flex-none xl:w-[499px] mt-[33px] lg:mt-[73px]">
             <h1 className="font-[Lato] w-full xl:w-[402px] block xl:leading-[43px] md:leading-[39px] leading-[34px] text-[rgba(55,75,92,1)] font-normal xl:text-4xl md:text-3xl sm:text-2xl text-xl">

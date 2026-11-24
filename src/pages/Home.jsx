@@ -27,7 +27,7 @@ const HomePage = () => {
         <Testimonial />
         <Book />
         <Subscribe />
-        <div className="hidden lg:block 2xl:hidden absolute top-[1500.09px] rotate-190 left-[1243.06px] w-[186.9px] xl:h-[166.42px] lg:h-[100px] rounded-l-full border-t-4 border-l-4 border-b-4 border-[rgba(245,145,0,1)] divide-y-1 divide-[rgba(204,204,204,1)]">
+        <div className="hidden lg:block absolute xl:top-[1500.09px] rotate-190 xl:left-[1243.06px] lg:left-[950px] lg:top-[1850px] 2xl:right-0 w-[186.9px] xl:h-[166.42px] lg:h-[100px] rounded-l-full border-t-4 border-l-4 border-b-4 border-[rgba(245,145,0,1)] divide-y-1 divide-[rgba(204,204,204,1)]">
           <div className="h-1/5"></div>
           <div className="h-1/5"></div>
           <div className="h-1/5"></div>
@@ -35,7 +35,7 @@ const HomePage = () => {
           <div className="h-1/5"></div>
         </div>
         <Blog />
-        <div className=" hidden lg:block 2xl:left-0 absolute lg:top-[2770px] lg:h-[100px] xl:top-[2400px] rotate-10 left-[-111.98px] w-[186.9px] xl:h-[166.42px] rounded-l-full border-t-4 border-l-4 border-b-4 border-[rgba(245,145,0,1)] divide-y-1 divide-[rgba(204,204,204,1)]">
+        <div className=" hidden lg:block 2xl:left-0 absolute lg:top-[2700px] lg:h-[100px] xl:top-[2400px] rotate-10 left-[-111.98px] w-[186.9px] xl:h-[166.42px] rounded-l-full border-t-4 border-l-4 border-b-4 border-[rgba(245,145,0,1)] divide-y-1 divide-[rgba(204,204,204,1)]">
           <div className="h-1/5"></div>
           <div className="h-1/5"></div>
           <div className="h-1/5"></div>

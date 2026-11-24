@@ -13,7 +13,7 @@ const Footer = () => {
           style={{ backgroundImage: `url(${FooterBackground})` }}
           className="w-full max-w-[1843.79px] mx-auto h-[395px] bg-cover bg-no-repeat h-auto mt-16 sm:mt-20 xl:mt-[97.84px] pb-10 xl:pb-10 text-white"
         >
-          <div className="grid xl:grid-cols-[488.5px_197px_218.5px_183.79px] lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-8 xl:gap-y-0 min-h-0 xl:self-start justify-items-center px-6 sm:px-10 pt-14 sm:pt-16 xl:pt-0 2xl:pt-10 xl:px-0 xl:ml-[139px]">
+          <div className="grid xl:grid-cols-[488.5px_197px_218.5px_183.79px] lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-8 xl:gap-y-0 min-h-0 xl:self-start justify-items-center px-6 sm:px-10 pt-14 sm:pt-16 lg:pt-0 xl:px-0 xl:ml-[139px]">
             {/* logo section */}
             <div>
               <div className="flex items-center mt-14 xl:mt-[134.98px]">

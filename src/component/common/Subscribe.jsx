@@ -2,7 +2,7 @@ const Subscribe = () => {
   return (
     <>
       <section className="overflow-x-clip">
-        <div className="w-full max-w-[569px] px-4 sm:px-6 md:px-0 xl:ml-[391px] xl:mr-[406px] 2xl:mx-auto mt-12 lg:mt-[132.58px] sm:mt-[100px] mb-10 lg:mb-0 mx-auto font-[LibreBaskerville]">
+        <div className="w-full max-w-[569px] px-4 sm:px-6 md:px-0 xl:ml-[391px] xl:mr-[406px] 2xl:mx-auto mt-12 sm:mt-24 xl:mt-[132.58px] sm:mt-[100px] mb-10 lg:mb-0 mx-auto font-[LibreBaskerville]">
           <h1 className="w-full lg:w-[519px] h-auto lg:h-[45px] xl:text-[36px] md:text-[32px] sm:text-[28px] text-[24px] text  leading-tight lg:leading-none text-center text-[rgba(55,75,92,1)] font-normal">
             Subscribe to Our Newsletter
           </h1>
