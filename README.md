@@ -51,7 +51,7 @@ The project is built using modern web technologies.
 
 ---
 
-# 8. Installation and Setup for project
+# 7. Installation and Setup for project
 
 The project repository is available on GitHub.
 
@@ -87,6 +87,6 @@ cd Onile-Learning
 
 ---
 
-# 7. Conclusion
+# 8. Conclusion
 
 The **Online Learning PLaform** aims to simplify Provding Learning Students with affordable cost.
