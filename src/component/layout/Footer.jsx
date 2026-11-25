@@ -11,12 +11,15 @@ const Footer = () => {
       <footer className="overflow-x-clip">
         <div
           style={{ backgroundImage: `url(${FooterBackground})` }}
-          className="w-full max-w-[1843.79px] mx-auto h-[395px] bg-cover bg-no-repeat h-auto mt-16 sm:mt-13 lg:mt-20 xl:mt-[97.84px] pb-10 xl:pb-10 text-white"
+          className="w-full max-w-[1843.79px] mx-auto h-[395px] bg-cover bg-no-repeat h-auto mt-10 lg:mt-20 xl:mt-[97.84px] pb-10 xl:pb-10 text-white"
         >
-          <div className="grid xl:grid-cols-[488.5px_197px_218.5px_183.79px] lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-8 xl:gap-y-0 min-h-0 xl:self-start lg:justify-items-center xl:justify-items-start px-6 sm:px-10 pt-14 sm:pt-16 xl:pt-0 xl:px-0 xl:ml-[139px] text-[rgba(251,251,251,1)] ">
+          <div className="grid xl:grid-cols-[488.5px_197px_218.5px_183.79px] lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-8 xl:gap-y-0 min-h-0 xl:self-start lg:justify-items-center xl:justify-items-start px-6 sm:px-10 pt-0 sm:pt-16 xl:pt-0 xl:px-0 xl:ml-[139px] text-[rgba(251,251,251,1)] ">
             {/* logo section */}
             <div>
-              <a href="#" className="flex items-center mt-14 xl:mt-[134.98px]">
+              <a
+                href="#"
+                className="flex items-center mt-30 md:mt-14 xl:mt-[134.98px]"
+              >
                 <img
                   src={FooterLogo}
                   alt=""
