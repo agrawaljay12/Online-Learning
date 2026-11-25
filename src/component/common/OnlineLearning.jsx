@@ -6,7 +6,7 @@ const OnlineLearning = () => {
   return (
     <>
       <section className="overflow-x-clip">
-        <div className="w-full max-w-[1205px] xl:ml-[90px] md:mx-auto 2xl:mx-auto px-4 sm:px-6 xl:px-0 mt-16 sm:mt-20 lg:mt-30 xl:mt-[127px]">
+        <div className="w-full max-w-[1205px] xl:ml-[90px] md:mx-auto 2xl:mx-auto px-4 sm:px-6 xl:px-0 mt-4 sm:mt-20 lg:mt-30 xl:mt-[127px]">
           {/* top content */}
           <img
             src={HeaderLogo}
