@@ -10,15 +10,15 @@ const Testimonial = () => {
           <div className="xl:ml-[203px] mt-[16.93px] w-full max-w-[759px] lg:w-[650px] xl:w-[759px] mx-auto lg:mx-0 lg:ml-[60px]">
             <img
               src={InvertedComma}
-              alt=""
+              alt="Inverted Comma"
               className="block mx-auto lg:mx-0 lg:ml-[350px] "
             />
             <img
               src={Client}
-              alt=""
+              alt="Client"
               className="block mx-auto lg:mx-0 lg:ml-[321px] mt-[23.74px]"
             />
-            <h3 className="text-center font-[LibreBaskerville] font-normal xl:text-[26px] md:text-[22px] sm:text-[20px] text-[18px] leading-none h-[32px] h-auto w-full text-center lg:text-left lg:ml-[329px] mt-[16.93px] lg:w-[119px] mt-[16.93px]">
+            <h3 className="text-center font-[LibreBaskerville] font-normal xl:text-[26px] md:text-[22px] sm:text-[20px] text-[18px] leading-none h-[32px] h-auto w-full lg:text-left lg:ml-[329px] mt-[16.93px] lg:w-[119px] mt-[16.93px]">
               Jane Doe
             </h3>
             <div className="flex justify-center lg:justify-start lg:ml-[315.85px] lg:mr-[317.27px] mt-[17.07px] w-full lg:w-[125.89px] h-[19.89px]">

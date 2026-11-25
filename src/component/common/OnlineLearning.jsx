@@ -6,7 +6,7 @@ const OnlineLearning = () => {
   return (
     <>
       <section className="overflow-x-clip">
-        <div className="w-full max-w-[1205px] xl:ml-[90px] md:mx-auto 2xl:mx-auto px-4 sm:px-6 xl:px-0 mt-16 sm:mt-30 xl:mt-[127px]">
+        <div className="w-full max-w-[1205px] xl:ml-[90px] md:mx-auto 2xl:mx-auto px-4 sm:px-6 xl:px-0 mt-16 sm:mt-20 lg:mt-30 xl:mt-[127px]">
           {/* top content */}
           <img
             src={HeaderLogo}
@@ -42,7 +42,7 @@ const OnlineLearning = () => {
             <div className="w-[262.51px] max-w-full h-[304.8px] bg-[rgba(255,145,0,1)] border-dashed border-[rgba(55,75,92,1)] border-[0.5px] rounded-4xl">
               <img
                 src={Girl1}
-                alt=""
+                alt="Girl"
                 className="ml-[82px] mt-[24px] mr-[82.04px] mb-[20.68px]"
               />
               <span className="w-[162.73px] font-normal text-white text-[19px] leading-none h-[24px] text-[rgba(55,75,92,1)] ml-[50px] mr-[49.78px]">
@@ -57,7 +57,7 @@ const OnlineLearning = () => {
             <div className="w-[262.51px] max-w-full h-[304.8px]  border-dashed border-[rgba(55,75,92,1)] border-[0.5px] rounded-4xl">
               <img
                 src={Girl}
-                alt=""
+                alt="Girl"
                 className="ml-[82px] mt-[24px] mr-[82.04px] mb-[20.68px]"
               />
               <span className="w-[162.73px] font-normal text-[19px] leading-none h-[24px] text-[rgba(55,75,92,1)] ml-[50px] mr-[49.78px]">
