@@ -32,7 +32,7 @@ const Subscribe = () => {
   return (
     <>
       <section className="overflow-x-clip">
-        <div className="w-full max-w-[569px] xl:ml-[391px] xl:mr-[406px] 2xl:mx-auto mt-16 xl:mt-[132.58px] sm:mt-[100px] mx-auto font-[LibreBaskerville]">
+        <div className="w-full max-w-[569px] xl:ml-[391px] xl:mr-[406px] 2xl:mx-auto mt-16 xl:mt-[132.58px] sm:mt-[100px] mx-auto font-[LibreBaskerville] px-4 md:px-0">
           <h1 className="w-full lg:w-[519px] h-auto lg:h-[45px] xl:text-[36px] md:text-[32px] sm:text-[28px] text-[24px] text  leading-tight lg:leading-none text-center text-[rgba(55,75,92,1)] font-normal">
             Subscribe to Our Newsletter
           </h1>
