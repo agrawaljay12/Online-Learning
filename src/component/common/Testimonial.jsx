@@ -5,16 +5,20 @@ const Testimonial = () => {
   return (
     <>
       <section className="overflow-x-clip">
-        <div className="w-full max-w-[1187px] lg:w-[905px] lg:h-[500px] xl:h-[520px] xl:w-auto h-auto xl:ml-[90px] xl:mr-[89px] mt-16 sm:mt-20 lg:mt-[92.7px] md:mx-auto lg:px 2xl:mx-auto relative">
+        <div className="w-full max-w-[1187px] lg:w-[905px] lg:h-[500px] xl:h-[520px] xl:w-auto h-auto xl:ml-[90px] xl:mr-[89px] mt-16 sm:mt-20 lg:mt-[92.7px] md:mx-auto  2xl:mx-auto relative">
           <div className=" absolute xl:w-[203px] xl:h-[203px] lg:w-[183px] lg:h-[183px] top-[35px] border-t-30 border-l-30 opacity-25 border-[rgba(255,145,0,1)] hidden lg:block"></div>
           <div className="xl:ml-[203px] mt-[16.93px] w-full max-w-[759px] lg:w-[650px] xl:w-[759px] mx-auto lg:mx-0 lg:ml-[60px]">
-            <img src={InvertedComma} alt="" className="mx-auto" />
+            <img
+              src={InvertedComma}
+              alt=""
+              className="block mx-auto lg:mx-0 lg:ml-[350px] "
+            />
             <img
               src={Client}
               alt=""
               className="block mx-auto lg:mx-0 lg:ml-[321px] mt-[23.74px]"
             />
-            <h3 className="text-center font-[LibreBaskerville] font-normal xl:text-[26px] md:text-[22px] sm:text-[20px] text-[18px] leading-none h-[32px] h-auto w-full text-center lg:text-left lg:ml-[328px] lg:mr-[312px] mt-[16.93px] lg:w-[119px] mt-[16.93px]">
+            <h3 className="text-center font-[LibreBaskerville] font-normal xl:text-[26px] md:text-[22px] sm:text-[20px] text-[18px] leading-none h-[32px] h-auto w-full text-center lg:text-left lg:ml-[329px] mt-[16.93px] lg:w-[119px] mt-[16.93px]">
               Jane Doe
             </h3>
             <div className="flex justify-center lg:justify-start lg:ml-[315.85px] lg:mr-[317.27px] mt-[17.07px] w-full lg:w-[125.89px] h-[19.89px]">
