@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="grid xl:grid-cols-[488.5px_197px_218.5px_183.79px] lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-8 xl:gap-y-0 min-h-0 xl:self-start lg:justify-items-center xl:justify-items-start px-6 sm:px-10 pt-14 sm:pt-16 xl:pt-0 xl:px-0 xl:ml-[139px] text-[rgba(251,251,251,1)] ">
             {/* logo section */}
             <div>
-              <div className="flex items-center mt-14 xl:mt-[134.98px]">
+              <a href="#" className="flex items-center mt-14 xl:mt-[134.98px]">
                 <img
                   src={FooterLogo}
                   alt=""
@@ -25,7 +25,7 @@ const Footer = () => {
                 <span className="font-[Forte] font-normal text-[26px] xl:text-[32px] md:text-[28px]  leading-[43px]">
                   Online Learn
                 </span>
-              </div>
+              </a>
               <p className="mt-6 xl:mt-[47.29px] font-[LibreBaskerville] font-normal text-[14px] leading-[17px]">
                 Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit,
                 sed do <br /> eiusmod tempor
@@ -42,42 +42,30 @@ const Footer = () => {
               </h4>
               <div className="mt-[14.32px] border-b-[2px] border-[rgba(0,219,208,1)] w-[54px]"></div>
               <ul className="list-none">
-                <a href="">
-                  <li className="mt-[18.68px] text-[rgba(255,255,255,1)] font-[LibreBaskerville] font-normal text-[14px] leading-[17px]">
-                    About Us
-                  </li>
-                </a>
-                <a href="">
-                  <li className="mt-[18px] text-[rgba(255,255,255,1)] font-[LibreBaskerville] font-normal text-[14px] leading-[17px]">
-                    Products
-                  </li>
-                </a>
-                <a href="">
-                  <li className="mt-[18px] text-[rgba(255,255,255,1)] font-[LibreBaskerville] font-normal text-[14px] leading-[17px]">
-                    Contact Us
-                  </li>
-                </a>
-                <a href="">
-                  <li className="mt-[18px] text-[rgba(255,255,255,1)] font-[LibreBaskerville] font-normal text-[14px] leading-[17px]">
-                    Term of Service
-                  </li>
-                </a>
+                <li className="mt-[18.68px] text-[rgba(255,255,255,1)] font-[LibreBaskerville] font-normal text-[14px] leading-[17px]">
+                  <a href="#">About Us</a>
+                </li>
+                <li className="mt-[18px] text-[rgba(255,255,255,1)] font-[LibreBaskerville] font-normal text-[14px] leading-[17px]">
+                  <a href="#">Products</a>
+                </li>
+                <li className="mt-[18px] text-[rgba(255,255,255,1)] font-[LibreBaskerville] font-normal text-[14px] leading-[17px]">
+                  <a href="#">Contact Us</a>
+                </li>
+                <li className="mt-[18px] text-[rgba(255,255,255,1)] font-[LibreBaskerville] font-normal text-[14px] leading-[17px]">
+                  <a href="#">Term of Service</a>
+                </li>
               </ul>
             </div>
 
             {/* About us */}
             <div className="lg:mt-24 xl:mt-[205.86px]">
               <ul className="list-none">
-                <a href="">
-                  <li className="mt-[18.68px] font-[LibreBaskerville] font-normal text-[14px] leading-[17px]">
-                    About Us
-                  </li>
-                </a>
-                <a href="">
-                  <li className="mt-[18px]  font-[LibreBaskerville] font-normal text-[14px] leading-[17px]">
-                    Products
-                  </li>
-                </a>
+                <li className="mt-[18.68px] font-[LibreBaskerville] font-normal text-[14px] leading-[17px]">
+                  <a href="#">About Us</a>
+                </li>
+                <li className="mt-[18px]  font-[LibreBaskerville] font-normal text-[14px] leading-[17px]">
+                  <a href="#"> Products</a>
+                </li>
               </ul>
             </div>
 
@@ -88,10 +76,18 @@ const Footer = () => {
               </h4>
               <div className="mt-[14.32px] border-b-[2px] border-[rgba(0,219,208,1)] w-[54px]"></div>
               <div className="flex mt-[14.56px]">
-                <img src={Facebook} alt="" />
-                <img src={Linkedin} alt="" className="ml-[20.13px]" />
-                <img src={Twitter} alt="" className="ml-[21.5px]" />
-                <img src={Instagram} alt="" className="ml-[20.13px]" />
+                <a href="#">
+                  <img src={Facebook} alt="" />
+                </a>
+                <a href="#">
+                  <img src={Linkedin} alt="" className="ml-[20.13px]" />
+                </a>
+                <a href="#">
+                  <img src={Twitter} alt="" className="ml-[21.5px]" />
+                </a>
+                <a href="#">
+                  <img src={Instagram} alt="" className="ml-[20.13px]" />
+                </a>
               </div>
             </div>
           </div>

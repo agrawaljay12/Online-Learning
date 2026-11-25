@@ -1,24 +1,29 @@
 # Online Learning PLaform- Documentation
----
-# 1. Project Title
-**Online Learning Platform**
----
 
-# 2. Introduction
-- The **Online Learning Plaform** is a modern study plaform where students can browse the all course, track learning progress, and watch video lession.
----
+# Table of Contents
 
-# 3. Table of Contents
 1. Project Title
 2. Introduction
-3. Features
-4. Technology Stack
-5. Installation and Setup
-6. Conclusion
+3. Purpose of Project.
+4. Features
+5. Technology Stack
+6. Installation and Setup
+7. Conclusion
 
 ---
 
-# 4. Purpose of the Project
+# 1. Project Title
+
+## **Online Learning Platform**
+
+# 2. Introduction
+
+- The **Online Learning Plaform** is a modern study plaform where students can browse the all course, track learning progress, and watch video lession.
+
+---
+
+# 3. Purpose of the Project
+
 The main purpose of the **Online Learning Platform** is study plaform where students can learning.
 
 The project also aims to:
@@ -33,13 +38,13 @@ The project also aims to:
 
 ---
 
-# 5. Features
+# 4. Features
 
 1. **Responsive Design:-** Fully optimized for desktop, tablet, and mobile screens.
 
 ---
 
-# 6. Technology Stack
+# 5. Technology Stack
 
 The project is built using modern web technologies.
 
@@ -51,7 +56,7 @@ The project is built using modern web technologies.
 
 ---
 
-# 8. Installation and Setup for project
+# 6. Installation and Setup for project
 
 The project repository is available on GitHub.
 
